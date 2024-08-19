@@ -1,0 +1,220 @@
+.containner {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+/* BLOG1 START */
+.blog1 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog1 h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  margin: 1rem 0;
+  color: aliceblue;
+}
+
+.Hobies {
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.imgHobies {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.imgHobies img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.imgHobies h1 {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.defenisi {
+  width: 90%;
+  height: 30%;
+  color: aliceblue;
+  text-align: center;
+  border: white 1px solid;
+}
+.defenisi h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+.defenisi p {
+  font-size: 15px;
+}
+/* BLOG 1 END */
+
+/* BLOG 2 START */
+.blog2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgHome {
+  width: 100%;
+  height: 30%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.imgHome img {
+  width: 40%;
+  height: 100%;
+  border-radius: 100%;
+}
+.aboutHome {
+  color: aliceblue;
+  margin: 0 1rem;
+}
+.aboutHome h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+.aboutHome p {
+  font-size: 15px;
+}
+
+/* MUSIC START*/
+.music {
+  width: 95%;
+  margin-top: 50px;
+}
+.music h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 1rem 0;
+  color: aliceblue;
+}
+/* MUSIC END */
+
+/* BLOG 2 END */
+
+@media screen and (max-width: 1450px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .blog1 {
+    width: 80%;
+    height: 110vh;
+  }
+
+  .Hobies {
+    width: 100%;
+    height: 80%;
+  }
+
+  .imgHobies img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .imgHobies h1 {
+    color: aliceblue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .imgHobies h1 {
+    font-size: 20px;
+  }
+
+  .defenisi {
+    height: 40%;
+  }
+  .defenisi h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 35px;
+  }
+  .defenisi p {
+    font-size: 15px;
+  }
+
+  .blog2 {
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  .imgHome {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .aboutHome {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .blog1 {
+    height: 100vh;
+  }
+  .Hobies {
+    width: 100%;
+    height: 40%;
+  }
+  .imgHobies {
+    width: 90%;
+    height: 90%;
+  }
+  .imgHobies img {
+    width: 200px;
+    height: 200px;
+  }
+  .imgHobies h1 {
+    font-size: 10px;
+  }
+  .defenisi {
+    height: 40%;
+  }
+  .defenisi h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+  }
+  .defenisi p {
+    font-size: 10px;
+
+    /* blog 2 */
+  }
+
+  .aboutHome h1 {
+    font-size: 30px;
+  }
+  .aboutHome p {
+    font-size: 10px;
+  }
+
+  .music {
+    font-size: 10px;
+    border: white 1px solid;
+  }
+}
