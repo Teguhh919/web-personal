@@ -5,7 +5,7 @@ const Comp = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.musicHome}>
-        <img src="/images/Wt83Vm.jpg" alt="" />
+        <img src="./images/Wt83Vm.jpg" alt="" />
         <div className={Styles.backgroundMusic}>
           <div className={Styles.quotesMusic}>
             <h1 data-aos="fade-down" data-aos-offset="100">
