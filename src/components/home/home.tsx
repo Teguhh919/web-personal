@@ -12,7 +12,7 @@ const HomePage = () => {
           <div className={Styles.Hobies}>
             <div className={Styles.imgHobies}>
               <img
-                src="/images/game1.webp"
+                src="./images/game1.webp"
                 data-aos="fade-right"
                 data-aos-offset="100"
               />
@@ -20,7 +20,7 @@ const HomePage = () => {
             </div>
             <div className={Styles.imgHobies}>
               <img
-                src="/images/listening.jpg"
+                src="./images/listening.jpg"
                 data-aos="fade-down"
                 data-aos-offset="100"
               />
@@ -28,7 +28,7 @@ const HomePage = () => {
             </div>
             <div className={Styles.imgHobies}>
               <img
-                src="/images/ngoding.webp"
+                src="./images/ngoding.webp"
                 data-aos="fade-left"
                 data-aos-offset="100"
               />
@@ -52,7 +52,7 @@ const HomePage = () => {
         {/* BLOG 2 */}
         <div className={Styles.blog2}>
           <div className={Styles.imgHome}>
-            <img src="/images/paaaadi.jpeg" alt="" />
+            <img src="./images/paaaadi.jpeg" alt="" />
             <div className={Styles.aboutHome}>
               <h1>TEGUHKAJANG</h1>
               <p>
