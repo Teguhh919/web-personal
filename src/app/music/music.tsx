@@ -19,7 +19,7 @@ const Comp = () => {
             </p>
           </div>
           <div className={Styles.spotify}>
-            <img src="/images/spotifyss.png" alt="" />
+            <img src="./images/spotifyss.png" alt="" />
             <Link href="https://open.spotify.com/" className={Styles.buttonSpo}>
               spotify
             </Link>
@@ -60,7 +60,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/the beatles.jpeg"
+            src="./images/the beatles.jpeg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
@@ -85,7 +85,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/acdc.jpeg"
+            src="./images/acdc.jpeg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
@@ -112,7 +112,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/greenday.jpg"
+            src="./images/greenday.jpg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
@@ -137,7 +137,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/nirvana.jpg"
+            src="./images/nirvana.jpg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
@@ -162,7 +162,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/oasis.jpeg"
+            src="./images/oasis.jpeg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
@@ -187,7 +187,7 @@ const Comp = () => {
           data-aos-offset="100"
         >
           <img
-            src="/images/bread.jpeg"
+            src="./images/bread.jpeg"
             className={Styles.imgBand}
             data-aos="fade-up"
             data-aos-offset="100"
